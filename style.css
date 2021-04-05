@@ -97,7 +97,7 @@ button {
     display: block;
 }
 }
-@media (max-width: 600px) {
+@media (max-width: 620px) {
     .wrap-block {
     display: block;
 }
