@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+      <div class="container">
+          <div class="title">Цвет фона</div>
+            <input type="color" class="inp-color" name="" id="inp-1">
+            <button class="btn-color">color</button>
+            <hr>
+      </div>
+
+       <div class="container">
+          <div class="title">Цвет текста</div>
+            <input type="color" class="text-color" name="" id="inp-2">
+            <button class="btn-text">color</button>
+            <hr>
+      </div>
+
+      <div class="container">
+          <div class="title">Размер текста</div>
+
+          <div class="wrap-block">
+                <div class="range-block">
+                    <input type="range" class="range-text" min="12" max="22" step="1" id="inp-3">
+                    <div class="sub-range">
+                        <span>size :</span>
+                        <span class="size-text">18</span>
+                        <span>px.</span>
+                    </div>
+                </div>
+
+                <div class="text-block">
+                    <p class="title-text">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo odio molestiae facere dolor sapiente culpa recusandae autem laudantium, saepe maiores perferendis a totam ad veniam dolorem aspernatur harum sed repellat!
+                    </p>
+                </div>
+          </div>
+            <hr>
+      </div>
+
+      <div class="container">
+          <div class="title">Выбор цвета круга</div>
+            <div class="wrapper">
+                <div class="range-wrap">
+                    <div class="range-blok">
+                        <input type="range" step="1" class="range-color inp-color-one" min="0" max="255" name="" id="inr-1">
+                    </div>
+
+                    <div class="range-blok">
+                        <input type="range" step="1" class="range-color inp-color-two" min="0" max="255" name="" id="inr-2">
+                    </div>
+
+                    <div class="range-blok">
+                        <input type="range" step="1" class="range-color inp-color-three" min="0" max="255" name="" id="inr-3">
+                    </div>
+                  <!-- oninput="applyColor()" -->
+                </div>
+                <div class="circle-wrap">
+                    <div class="circle"></div>
+                </div>
+            </div>
+            <hr>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>
