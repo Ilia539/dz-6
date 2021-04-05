@@ -96,9 +96,20 @@ button {
     .wrapper {
     display: block;
 }
+.container {
+    padding: 20px;
+    text-align: center;
+}
 }
 @media (max-width: 620px) {
     .wrap-block {
     display: block;
+}
+.text-block {
+    padding: 0;
+    text-align: justify;
+}
+.range-block {
+    margin-bottom: 15px;
 }
 }
