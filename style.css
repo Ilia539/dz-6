@@ -26,6 +26,7 @@ button {
     padding-left: 25px;
     max-width: 620px;
     align-self: flex-start;
+    text-align: justify;
 }
 .sub-range {
     display: flex;
@@ -107,7 +108,6 @@ button {
 }
 .text-block {
     padding: 0;
-    text-align: justify;
 }
 .range-block {
     margin-bottom: 15px;
